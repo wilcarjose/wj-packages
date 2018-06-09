@@ -24,11 +24,13 @@
             "database/factories"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "WJ\\": "packages/WJ/Wobe/src",
+            "WilcarJose\\": "app/"
         }
     },
     "autoload-dev": {
         "psr-4": {
+            "WJ\\": "packages/WJ/Wobe/src",
             "Tests\\": "tests/"
         }
     },

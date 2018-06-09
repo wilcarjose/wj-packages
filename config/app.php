@@ -150,15 +150,16 @@ return [
         /*
          * Package Service Providers...
          */
+        WJ\WobeServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        WilcarJose\Providers\AppServiceProvider::class,
+        WilcarJose\Providers\AuthServiceProvider::class,
+        // WilcarJose\Providers\BroadcastServiceProvider::class,
+        WilcarJose\Providers\EventServiceProvider::class,
+        WilcarJose\Providers\RouteServiceProvider::class,
 
     ],
 
